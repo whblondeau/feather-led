@@ -1,7 +1,7 @@
 # Display Specification
 ## at-a-glance
 The feather-led display is intended to be a set of color-coded representations, skeuomorphic of LED indicators against a dark background. The base information set is defined as follows:
-<table style='color:#ffffff; background-color:#303030'>
+<table color='#ffffff' bgcolor='#303030'>
   <tr><th>color</th><th>measurement</th><th>numeric rgb</th><th>semantic</th></tr>
   <tr>
     <td>green-to-yellow</td>
