@@ -1,0 +1,6 @@
+# feather-led operation
+
+The client exposes two services:
+
+1. The **configure** service, a RESTful GET/PUT/DELETE (POST not supported) that sends a configuration to the client. The configuration consists of two parts: the common configuration that covers such items as timing and interfaces, and a set of special instructions that accounts for specific semantics.
+2. The **operate** service, which is a RESTful GET/PUT/DELETE (POST not supported) that sets an operating mode (run, off, single). DELETE disables the client.
